@@ -1,0 +1,172 @@
+/* Typography */
+
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src:"https://fonts.googleapis.com/css?family=Montserrat+Alternates:200,300,300i,400";
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+p, li,  h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat Alternates, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4{
+    font-size: 1.2em;
+}
+
+h5{
+    font-size: 1em;
+}
+
+h6{
+    font-size: 0.8em;
+}
+
+/* Responsive styling */
+
+html {
+    box-sizing: border-box;
+    max-width:1000px;
+    margin: 0 auto;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1000px;
+}
+
+.row:: before, .row::after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.one,
+.one-third,
+.two-thirds,
+.one-fourth,
+.half {
+    width: 100%;
+}
+
+@media  (min-width: 600px) {
+    .one {
+        width: 100%;
+    }
+    .half {
+        width: 50%;
+    }
+    .one-third {
+        width: 33.3%;
+    }
+    .one-fourth {
+        width: 25%;
+    }
+    .two-thirds {
+        width: 66%;
+    }
+    .column {
+        float: left;
+    }
+}
+
+
+/* Body Styling */
+
+section{
+    margin:0 auto 0 auto;
+    max-width: 800px;
+}
+/*
+#main-body{
+    height: 1500px;
+}
+*/
+#top-div{
+    text-align: right;
+    padding:25% 18% 0 0;
+    margin: 0 0 25% 40%;
+    max-width:1000px;
+    background: transparent;
+    height: 70vh;
+/*   background-size: contain !important;*/
+}
+
+.parallax-window {
+    background-size: contain auto !important;
+    max-width: 1000px;
+    background: transparent;
+    background-position: top;
+    margin: -1% 0 0 0;
+}
+
+.parallax2-window {
+    background-size:1000px auto;
+    background-position: center top;
+}
+
+.section-header{
+    text-align:center;
+    height: 10vh;
+}
+
+
+.left-col{
+    text-align:right;
+}
+
+.right-col{
+    text-align:left;
+}
+
+.static-1 {
+    margin: 15% auto 15% auto;
+    text-align: center;
+}
+
+.mockup {
+    max-height: 400px;
+    max-width: 75%;
+}
+
+ul {
+}
+
+.section-divider1 img{
+    width: 100%;
+}
+
+.section-divider1 {
+/*    background-image: url("../img/portfolio.png");
+    background-size: fit;
+    background-position: fixed;*/
+    margin: 20% auto 0 auto;
+    text-align: center;
+    max-width: 1000px;    
+}
+
+.gap{
+    width:100vw;
+    height:20vh!important;
+}
