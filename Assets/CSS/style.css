@@ -109,8 +109,20 @@ section{
     margin: 0 0 25% 40%;
     max-width:1000px;
     background: transparent;
-    height: 70vh;
+    height: 30vh;
 /*   background-size: contain !important;*/
+}
+
+@media (min-width:768px){
+    #top-div{
+        text-align: right;
+        padding:25% 18% 0 0;
+        margin: 0 0 25% 40%;
+        max-width:1000px;
+        background: transparent;
+        height: 70vh;
+        /*   background-size: contain !important;*/
+    }
 }
 
 .parallax-window {
@@ -161,9 +173,20 @@ ul {
 /*    background-image: url("../img/portfolio.png");
     background-size: fit;
     background-position: fixed;*/
-    margin: 20% auto 0 auto;
+    margin: 0% auto 0 auto;
     text-align: center;
     max-width: 1000px;    
+}
+
+@media(min-width:768px){
+    .section-divider1 {
+        /*    background-image: url("../img/portfolio.png");
+    background-size: fit;
+    background-position: fixed;*/
+        margin: 20% auto 0 auto;
+        text-align: center;
+        max-width: 1000px;    
+    }
 }
 
 .gap{
